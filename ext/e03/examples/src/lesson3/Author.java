@@ -1,8 +1,8 @@
-package pl.poznan.put;
+package lesson3;
 
 public class Author {
-  private String firstName;
-  private String lastName;
+  private final String firstName;
+  private final String lastName;
 
   Author(String firstName, String lastName) {
     this.firstName = firstName;

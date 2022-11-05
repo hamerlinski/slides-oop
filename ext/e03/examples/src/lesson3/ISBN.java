@@ -1,11 +1,11 @@
-package pl.poznan.put;
+package lesson3;
 
 public class ISBN {
-  private String value;
+  private final String value;
 
   ISBN(String value) {
     this.value = value;
-  };
+  }
 
   public String isbnValue() {
     return this.value;
