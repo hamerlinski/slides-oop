@@ -7,10 +7,12 @@
 
 int main() {
     ISBN isbn("0735619654");
-    Author author("David", "West");
+    Authors authors = Authors(2);
+    authors.addAuthor("David", "West");
+    authors.addAuthor("Bruce","Eckel");
     Title title("Myślenie obiektowe", "Object Thinking");
     int pages = 368;
-    Book objectThinking(isbn, author, title, pages);
+    Book objectThinking(isbn, authors, title, pages);
     std::cout << objectThinking.toJSON();
     return 0;
 }
