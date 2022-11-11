@@ -7,6 +7,7 @@
 
 int main() {
     ISBN isbn("0735619654");
+    vector <Author> author;
     Author author("David", "West");
     Title title("Myślenie obiektowe", "Object Thinking");
     int pages = 368;
