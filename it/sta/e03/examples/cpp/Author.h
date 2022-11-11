@@ -18,8 +18,7 @@ public:
         this->lastName = lastName;
     }
 
-    Author() {}
+    Author() = default;
 };
-
 
 #endif //CPP_AUTHOR_H
