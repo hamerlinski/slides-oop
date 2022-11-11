@@ -8,7 +8,7 @@
 class Book {
 private:
     ISBN isbn;
-    Author author;
+    vector <Author> author;
     Title title;
     int pages;
 
@@ -21,7 +21,7 @@ public:
         return oss.str();
     }
 
-    Book(ISBN isbn, Author author, Title title, int pages) {
+    Book(ISBN isbn, vector <Author> author, Title title, int pages) {
         this->isbn = isbn;
         this->author = author;
         this->title = title;
