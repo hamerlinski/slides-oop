@@ -38,6 +38,9 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+examples.iml
+.idea
+.idea//workspace.xml
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -45,7 +48,7 @@
 .idea/**/shelf
 # AWS User-specific
 .idea/**/aws.xml
-
+CMakeLists.txt
 # Generated files
 .idea/**/contentModel.xml
 
@@ -383,3 +386,4 @@ dist
 dist/
 npm-debug.log
 yarn-error.log
+
