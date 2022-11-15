@@ -8,11 +8,11 @@
 int main() {
     ISBN isbn("9780321714114");
     std::vector <Author> authors;
-    Author auth1("Stanley","Lippman);
+    Author auth1("Stanley","Lippman");
     authors.push_back(auth1);
-    Author auth2("Josée","Lajoie");
+    Author auth2("Josee","Lajoie");
     authors.push_back(auth2);
-    Author auth3("Barbara E. Moo");
+    Author auth3("Barbara E.","Moo");
     authors.push_back(auth3);
     Title title("C++ Primer", "C++ Primer");
     int pages = 1399;
