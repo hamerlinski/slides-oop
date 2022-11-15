@@ -17,9 +17,15 @@ public:
     std::string toJSON() {
         std::ostringstream oss;
         oss << R"({"isbn":")" << isbn.isbnValue() << R"(", "authors":{)";
-        for(int i=0; i<authors.size();i++){oss << R"(")" << authors[i].name();
-            if(i<authors.size()-1){oss << R"(",)";}
-            else(oss << R"(")");}
+        for(int i=0; i<authors.size();i++)
+            {
+            oss << R"(")" << authors[i].name();
+            if(i<authors.size()-1)
+            {
+                oss << R"(",)";
+            }
+            else(oss << R"(")");
+            }
         oss << R"(},"title":")" << title.value("ENG") << R"(", "pages":)" << pages << "}";
         return oss.str();
     }
