@@ -9,8 +9,9 @@ class Cash : public Money {
   private:
     float dollars;
   public:
-    Cash multiplyCash(float factor) {
-      return Cash(dollars * factor);
+      Cash* multiplyBalance(float factor) {
+      Cash* b = new Cash(dollars * factor);
+      return b;
     }
 
     std::string balance() {
