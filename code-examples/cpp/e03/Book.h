@@ -16,7 +16,7 @@ private:
 public:
     std::string toJSON() {
         std::ostringstream oss;
-        oss << R"({"isbn":")" << isbn.isbnValue() << R"(", "authors":{)";
+        oss << R"({"isbn":")" << isbn.isbnValue() << R"(", "authors":[)";
         for(int i=0; i<authors.size();i++)
             {
             oss << R"(")" << authors[i].name();
@@ -26,7 +26,7 @@ public:
             }
             else(oss << R"(")");
             }
-        oss << R"(},"title":")" << title.value("ENG") << R"(", "pages":)" << pages << "}";
+        oss << R"(],"title":")" << title.value("ENG") << R"(", "pages":)" << pages << "}";
         return oss.str();
     }
 
