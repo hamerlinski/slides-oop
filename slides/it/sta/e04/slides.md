@@ -39,7 +39,7 @@ Interface is a contract that object must obey. It consists of methods declaratio
 ```java
 //java
 interface Money {
-  Money multiply(float factor);
+  Money multipliedMoney(float factor);
   String balance();
 }
 ```
@@ -58,7 +58,7 @@ class Money {
 ```java
 //java
 interface Money {
-  Money multiply(float factor);
+  Money multipliedMoney(float factor);
   String balance();
 }
 ```
@@ -67,7 +67,7 @@ interface Money {
 public class Cash implements Money {
   private final float dollars;
   @Override
-  public Cash multiply(float factor) { return new Cash(this.dollars * factor); }
+  public Cash multipliedMoney(float factor) { return new Cash(this.dollars * factor); }
   @Override
   public String balance() { return "$" + dollars; }
   public Cash(float dollars) { this.dollars = dollars; }
@@ -97,7 +97,7 @@ class Cash: public Money {
 private:
     float dollars;
 public:
-    Cash multiply(float factor){
+    Cash multipliedMoney(float factor){
       return Cash(dollars * factor);
     }
     std::string balance(){
@@ -222,7 +222,7 @@ final class HTTPStatus implements Status {
     this.page = url;
   }
   @Override
-  public int read() {
+  public int responseCode() {
     return HttpURLConnection.class.cast(
       this.page.openConnection()
     ).getResponseCode();
