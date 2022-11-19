@@ -9,7 +9,7 @@ class Cash : public Money {
   private:
     float dollars;
   public:
-      Cash* multiplyBalance(float factor) {
+      Cash* multipliedBalance(float factor) {
       Cash* b = new Cash(dollars * factor);
       return b;
     }
