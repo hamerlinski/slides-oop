@@ -6,6 +6,7 @@
 
 class Money {
   public:
+    virtual Money* multipliedBalance(float factor) = 0;
     virtual std::string balance() = 0;
 };
 
