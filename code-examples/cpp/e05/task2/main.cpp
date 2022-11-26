@@ -2,7 +2,7 @@
 #include <iostream>
 int main() {
   Calculator calc;
-  std::cout<< "69/3=" << calc.divide(69, 3) << std::endl;
-  calc.divide(420, 0);
+  std::cout<< "69/3=" << calc.fraction(69, 3) << std::endl;
+  calc.fraction(420, 0);
   return 0;
 }

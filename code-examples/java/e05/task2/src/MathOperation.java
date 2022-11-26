@@ -1,4 +1,4 @@
 public interface MathOperation {
 
-  int divide(int numerator, int denominator);
+  int fraction(int numerator, int denominator);
 }

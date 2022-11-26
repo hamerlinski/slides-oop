@@ -6,7 +6,7 @@ public class Calculator implements MathOperation {
   ;
 
   @Override
-  public int divide(int numerator, int denominator) {
+  public int fraction(int numerator, int denominator) {
     try {
       return numerator / denominator;
     } catch (ArithmeticException e) {

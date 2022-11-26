@@ -3,7 +3,7 @@
 
 class MathOperation {
  public:
-  virtual int divide(int numerator, int denominator) = 0;
+  virtual int fraction(int numerator, int denominator) = 0;
 };
 
 #endif //TASK2_MATHOPERATION_H_

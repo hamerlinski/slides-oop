@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <iostream>
 
-int Calculator::divide(int numerator, int denominator) {
+int Calculator::fraction(int numerator, int denominator) {
   try {
     if (denominator == 0)
       throw std::logic_error("error: cannot divide " + std::to_string(numerator) + " by 0\n");

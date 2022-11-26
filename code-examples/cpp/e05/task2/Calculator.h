@@ -4,7 +4,7 @@
 #include "MathOperation.h"
 class Calculator : public MathOperation {
  public:
-  int divide(int numerator, int denominator) override;
+  int fraction(int numerator, int denominator) override;
   Calculator();
 };
 
