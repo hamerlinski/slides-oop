@@ -1,4 +1,4 @@
-package pl.poznan.put;
+package pl.poznan.put.log;
 
 // Before refactor
 public class Logarithm implements Number {

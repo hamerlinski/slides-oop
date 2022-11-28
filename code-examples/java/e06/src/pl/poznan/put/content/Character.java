@@ -1,4 +1,4 @@
-package pl.poznan.put;
+package pl.poznan.put.content;
 
 public final class Character implements Symbol {
 

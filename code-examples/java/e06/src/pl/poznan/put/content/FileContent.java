@@ -1,4 +1,4 @@
-package pl.poznan.put;
+package pl.poznan.put.content;
 
 import java.io.BufferedWriter;
 import java.io.File;
