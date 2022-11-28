@@ -1,4 +1,4 @@
-#include "../../include/content/Logarithm.h"
+#include "../../include/log/Logarithm.h"
 #include "cmath"
 
 // Before refactor

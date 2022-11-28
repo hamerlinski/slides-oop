@@ -3,6 +3,7 @@
 
 #include <string>
 #include "Content.h"
+
 class FileContent : public Content {
  private:
   std::string file_path;

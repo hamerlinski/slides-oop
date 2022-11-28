@@ -1,7 +1,9 @@
 #ifndef E06_SRC_CONTENT_LOGARITHM_H_
 #define E06_SRC_CONTENT_LOGARITHM_H_
 
-class Logarithm {
+#include "Number.h"
+
+class Logarithm : public Number {
  private:
   double base, argument;
  public:
