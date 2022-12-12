@@ -167,4 +167,4 @@ public class Application {
 
 # Object Oriented Programming
 ## Task
-1. Create class Weather, which encapsulates interface Forecast, which returns today temperature. Create Fake class inside Forecast, which will return some, always the same, value. Show usage of the class Weather.
+1. Create class Weather, which encapsulates interface Forecast, which declares method returning todays temperature. Create Fake class inside Forecast, which will return some, always the same, value. Show usage of the class Weather.
