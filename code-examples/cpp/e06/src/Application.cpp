@@ -1,7 +1,7 @@
 #include <iostream>
 #include <filesystem>
-#include "include/content/FileContent.h"
-#include "include/log/Logarithm.h"
+#include "../include/content/FileContent.h"
+#include "../include/log/Logarithm.h"
 
 int main() {
   int example;
