@@ -1,0 +1,23 @@
+/* style.css */
+:not(pre) > code:before, :not(pre) > code:after {
+  content: '';
+  opacity: 1;
+}
+.slidev-layout ul, ol, ul {
+  list-style: decimal-leading-zero;
+  margin-left: 1em;
+}
+.slidev-layout h1 + h2 {
+  margin-top: -0.5rem;
+}
+:not(pre) > code {
+  font-size: 1em;
+  background: #e0e0e0;
+  color: #101010;
+  border-radius: 0.25rem;
+  font-weight: 300;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  padding-left: 0.250rem;
+  padding-right: 0.250rem;
+}

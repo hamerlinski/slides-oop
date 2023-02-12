@@ -1,5 +1,5 @@
 {
-  "name": "e00",
+  "name": "git-usage",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -8,9 +8,7 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.36.11",
-    "@slidev/theme-apple-basic": "^0.20.0",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "slidev-theme-eloc": "^1.0.1"
   },
   "devDependencies": {
     "playwright-chromium": "^1.29.0"
