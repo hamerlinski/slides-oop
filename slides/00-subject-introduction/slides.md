@@ -24,9 +24,10 @@ image: '/computer.png'
 * About me
 * Topics
 * How to pass?
-* Task
 * Sources
 * Contact and Q&A
+* Tasks
+* "Homework"
 
 ---
 layout: statement
@@ -125,6 +126,40 @@ All code and presentation must be committed to your public repository to folder 
 2 absences from classes allowed.
 Each subsequent one must be made up.
 
+---
+layout: statement
+---
+
+# Sources
+
+---
+
+# Object Oriented Programming
+## Sources
+Great books about OOP:<br>
+1. [David West, *Object Thinking*, Microsoft Press, 2004](https://a.co/d/aKLHgLY)<br>
+2. [Yegor Bugayenko, *Elegant Objects (Volume 1)*, CreateSpace, 2016](https://a.co/d/2CA0a9R)<br>
+3. [Yegor Bugayenko, *Elegant Objects (Volume 2)*, CreateSpace, 2017](https://a.co/d/2hqefET)<br><br>
+
+My slides (Work in progress): [https://github.com/hamerlinski/slides-oop](https://github.com/hamerlinski/slides-oop/tree/feature/refactor-slides-for-bioinformatics)
+
+---
+layout: statement
+---
+
+# Contact and Q&A
+
+---
+
+# Object Oriented Programming
+## Contact and Q&A
+Please contact me using [jakub.hamerlinski@cs.put.poznan.pl](mailto:jakub.hamerlinski@cs.put.poznan.pl)
+
+---
+layout: fact
+---
+
+# Questions?
 
 ---
 layout: statement
@@ -144,7 +179,7 @@ layout: statement
 # Object Oriented Programming
 ## Task - GitHub account creation + repo
 1.1 Create GitHub account using following guide: [Create a GitHub account to use with Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-github-account?view=vs-2022)<br>
-1.2 Create repository `oop-put-course` from [the template](https://github.com/hamerlinski/oop-put-course-template) using following guide: [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+1.2 Create repository `oop-put-course` from [the template](https://github.com/hamerlinski/oop-put-course-template) using following guide: <br>[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 <img src="/from-a-template.png" class="m-5 h-70 rounded shadow" />
 
 ---
@@ -160,36 +195,13 @@ layout: statement
 layout: statement
 ---
 
-# Sources
+# "Homework"
 
 ---
 
 # Object Oriented Programming
-## Sources
-My slides (Work in progress): [https://github.com/hamerlinski/slides-oop](https://github.com/hamerlinski/slides-oop/tree/feature/refactor-slides-for-bioinformatics)<br><br>
-
-Great books about OOP:<br>
-1. [David West, *Object Thinking*, Microsoft Press, 2004](https://a.co/d/aKLHgLY)<br>
-2. [Yegor Bugayenko, *Elegant Objects (Volume 1)*, CreateSpace, 2016](https://a.co/d/2CA0a9R)<br>
-3. [Yegor Bugayenko, *Elegant Objects (Volume 2)*, CreateSpace, 2017](https://a.co/d/2hqefET)<br>
-
----
-layout: statement
----
-
-# Contact and Q&A
-
----
-
-# Object Oriented Programming
-## Contact and Q&A
-Please contact me using [jakub.hamerlinski@cs.put.poznan.pl](mailto:jakub.hamerlinski@cs.put.poznan.pl)
-
----
-layout: fact
----
-
-# Questions?
+## "Homework"
+Prepare for next lesson by reading and analyzing slides 00-cpp-basics available at https://github.com/hamerlinski/slides-oop/tree/feature/refactor-slides-for-bioinformatics/slides/00-cpp-basics
 
 ---
 layout: statement
