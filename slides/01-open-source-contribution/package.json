@@ -1,5 +1,5 @@
 {
-  "name": "00-subject-introduction",
+  "name": "01-open-source-contribution",
   "private": true,
   "scripts": {
     "build": "slidev build",
