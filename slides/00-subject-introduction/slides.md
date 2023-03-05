@@ -16,7 +16,7 @@ Jakub Piotr Hamerliński
 
 ---
 layout: image-right
-image: '/computer.png'
+image: '/mike.png'
 ---
 
 # Object Oriented Programming
@@ -28,6 +28,9 @@ image: '/computer.png'
 * Contact and Q&A
 * Tasks
 * "Homework"
+
+> _"Would I rather be feared or loved? Easy – both. I want people to be afraid of how much they love me."_
+<br>Michael Scott
 
 ---
 layout: statement

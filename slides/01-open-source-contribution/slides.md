@@ -16,7 +16,7 @@ Jakub Piotr Hamerliński
 
 ---
 layout: image-right
-image: 'osi.png'
+image: 'jan.png'
 ---
 
 # Open Source Contribution
@@ -26,7 +26,9 @@ image: 'osi.png'
 * How to contribute?
 * Where to contribute?
 * Task
-
+<br><br>
+> _"There are always a million reasons not to do something."_
+<br>Jan Levinson-Gould
 ---
 
 # Open Source Contribution

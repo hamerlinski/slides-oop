@@ -16,7 +16,7 @@ Jakub Piotr Hamerliński
 
 ---
 layout: image-right
-image: 'https://octodex.github.com/images/NUX_Octodex.gif'
+image: 'jim.png'
 ---
 
 # Version Control Systems
@@ -24,6 +24,9 @@ image: 'https://octodex.github.com/images/NUX_Octodex.gif'
 * Git
 * GitHub
 * GitHub CLI
+<br><br><br>
+> _"Everything I have I owe to this job... this stupid, wonderful, boring, amazing job."_
+Jim Halpert
 
 ---
 

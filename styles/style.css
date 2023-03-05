@@ -21,3 +21,6 @@
   padding-left: 0.250rem;
   padding-right: 0.250rem;
 }
+img {
+  background-position: inherit;
+}

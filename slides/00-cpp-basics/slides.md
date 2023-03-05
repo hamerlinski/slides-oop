@@ -16,7 +16,7 @@ Jakub Piotr Hamerliński
 
 ---
 layout: image-right
-image: 'https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png'
+image: 'dwight.png'
 ---
 
 # C++ basics
@@ -25,6 +25,10 @@ image: 'https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png'
 * Scope
 * `main` function
 * Modern C++ elements
+<br><br><br>
+> _"Whenever I'm about to do something, I think, 'Would an idiot do that?' And if they would, I do not do that thing."_
+<br>Dwight Schrute
+
 ---
 layout: statement
 ---
