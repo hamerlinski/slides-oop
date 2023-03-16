@@ -10,6 +10,10 @@
 .slidev-layout h1 + h2 {
   margin-top: -0.5rem;
 }
+.slidev-layout.quote h1{
+  font-family: "American Typewriter";
+  font-weight: normal;
+}
 :not(pre) > code {
   font-size: 1em;
   background: #e0e0e0;
