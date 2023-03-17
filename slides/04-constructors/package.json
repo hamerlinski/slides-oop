@@ -1,5 +1,5 @@
 {
-  "name": "03-methods-and-encapsulation",
+  "name": "04-constructors",
   "private": true,
   "scripts": {
     "build": "slidev build",
