@@ -1,5 +1,5 @@
 {
-  "name": "05-interfaces-and-immutability",
+  "name": "05-immutability-interfaces-and-proj-struct",
   "private": true,
   "scripts": {
     "build": "slidev build",

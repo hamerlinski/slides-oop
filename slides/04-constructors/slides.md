@@ -29,7 +29,8 @@ fonts:
 layout: fact
 ---
 
-## Poznan University of Technology
+# Poznan University of Technology
+## Object Oriented Programming
 ## Constructors
 Jakub Piotr Hamerliński
 
