@@ -1,5 +1,6 @@
+#include <sstream>
+#include <iomanip>
 #include "../include/Cash.h"
-
 std::string Cash::Balance() {
   std::stringstream stream;
   stream << std::fixed << std::setprecision(2) << dollars;
@@ -10,6 +11,4 @@ Cash *Cash::MultipliedBalance(float factor) {
   Cash *b = new Cash(dollars * factor);
   return b;
 }
-Cash::Cash(float dollars) {
-  this->dollars = dollars;
-}
+Cash::Cash(float dollars) { this->dollars = dollars; }
