@@ -29,7 +29,8 @@ fonts:
 layout: fact
 ---
 
-## Poznan University of Technology
+# Poznan University of Technology
+## Object Oriented Programming
 ## Objects and classes
 Jakub Piotr Hamerliński
 
@@ -53,20 +54,20 @@ Pam Halpert
 layout: statement
 ---
 
-# Object 
+# Object
 
 ---
 layout: quote
 ---
 
-# “An object is the equivalent of the quanta from which the universe is constructed”
+# "An object is the equivalent of the quanta from which the universe is constructed"
 David West
 
 ---
 layout: quote
 ---
 
-# “They are living organisms, with their own behavior, properties and a life cycle.”
+# "They are living organisms, with their own behavior, properties and a life cycle."
 Yegor Bugayenko
 
 ---
@@ -133,7 +134,7 @@ Manager. Controller. Helper. Handler. Writer. Reader. Converter. Validator. Rout
 
 # Objects and classes
 ## Naming conventions
-There are several great articles, which show that "-er" ending is just bad. 
+There are several great articles, which show that "-er" ending is just bad.
 * [Don't Create Objects That End With -ER by Yegor Bugayenko](https://www.yegor256.com/2015/03/09/objects-end-with-er.html)
 * [Your Coding Conventions Are Hurting You by Carlo Pescio](http://www.carlopescio.com/2011/04/your-coding-conventions-are-hurting-you.html)
 * [One of the Best Bits of Programming Advice I Ever Got by Travis Griggs](http://objology.blogspot.com/2011/09/one-of-best-bits-of-programming-advice.html)
@@ -162,7 +163,7 @@ Instead, I would say to you, "Consider them sorted; what do you want to do next?
 
 # Objects and classes
 ## Naming conventions example
-In other words, I would endeavor to carry out my own business without explicitly disobeying your directions. Compared to that necessary sorter, I would make a far more intelligent mate for you. And instead of being a process that sorts, I would turn into an actual thing that functions like a list of apples that has been sorted:
+In other words, I would endeavor to carry out my own business without explicitly disobeying your directions. Compared to that necessary sorter, I would make a far more intelligent mate for you. And instead of being a process that sorts, I would turn into an actual thing that functions like a list of numbers that has been sorted:
 ```cpp
 std::list<int> outOfOrderNumbers = {7, 5, 16, 8};
 SortedNumbers sorted(outOfOrderNumbers);
@@ -179,7 +180,7 @@ Returning to class names now. Your class name instantly becomes a dumb imperativ
 
 A living entity that resists being instructed what to do is an object. By revealing behavior in accordance with its contract(s), also known as interfaces in Java and C# or protocols in Swift, it aspires to be an equal partner with other objects.
 
-Philosophically speaking, the “-er” suffix is a sign of disrespect toward the poor object.
+Philosophically speaking, the "-er" suffix is a sign of disrespect toward the poor object.
 
 ---
 layout: quote
@@ -211,8 +212,8 @@ layout: statement
 # Objects and classes
 ## Tasks
 Tasks
-* Write a program in C++ with few classes. Try to make them present the world around you. 
-* Write a program in C++ using classes from exercise 1 which will demonstrate your ability to create objects.
+* Write a program with 2-3 classes. Try to make them present the world around you.
+* Write a program using classes from exercise 1 which will demonstrate your ability to create objects.
 
 ---
 layout: statement

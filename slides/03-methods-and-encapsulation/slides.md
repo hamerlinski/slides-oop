@@ -29,7 +29,8 @@ fonts:
 layout: fact
 ---
 
-## Poznan University of Technology
+# Poznan University of Technology
+## Object Oriented Programming
 ## Methods and encapsulation
 Jakub Piotr Hamerliński
 
@@ -41,18 +42,18 @@ image: 'kevin.png'
 # Methods and encapsulation
 ## Agenda
 * Methods
-* Evilness of ~~getters~~ and ~~setters~~
 * Encapsulation
+* Evilness of ~~getters~~ and ~~setters~~
 * Task
 <br><br><br>
-> _"Me mechanic not speak English. But he know what me mean when me say “car no go”, and we best friends. So me think: why waste time, say lot word when few word do trick?"_
+> _"Me mechanic not speak English. But he know what me mean when me say "car no go", and we best friends. So me think: why waste time, say lot word when few word do trick?"_
 Kevin Malone
 
 ---
 layout: statement
 ---
 
-# Methods 
+# Methods
 
 ---
 
@@ -86,7 +87,7 @@ class Ball {
  private:
   std::string color;
  public:
-  Ball Paint(std::string newColor) {
+  Ball PaintedBall(std::string newColor) {
     this->color = std::move(newColor);
     return *this;
   }
@@ -129,7 +130,7 @@ int main() {
   Dog goodBoy;
   goodBoy.NameDog("Piernik");
   Ball ball;
-  Ball newBall = ball.Paint("Pink");
+  Ball newBall = ball.PaintedBall("Pink");
   goodBoy.GiveBall(newBall);
   Ball wetBall = goodBoy.TakeBall();
   std::cout << wetBall.CurrentColor();
@@ -189,11 +190,11 @@ layout: statement
 
 # Evilness of ~~getters~~ and ~~setters~~
 ## Why they are evil?
-“It is convenient to have these ~~getters~~, you may say. We are all used to them.
+"It is convenient to have these ~~getters~~, you may say. We are all used to them.
 If we want to convert it into JSON, they will be very helpful. (..) There are
 many examples, where ~~getters~~ are being actively used. This is not because
-they are so effective. This is because we’re so procedural in our way of
-thinking. We don’t trust our objects. We only trust the data they store. ”
+they are so effective. This is because we're so procedural in our way of
+thinking. We don't trust our objects. We only trust the data they store. "
 <br>Yegor Bugayenko
 
 ---
@@ -250,7 +251,7 @@ Usage of getters, setters leads to data structures/bags, not to classes:
 struct Cash {
   int dollars;
 }
-printf("Cash value is %d", Cash.dollars);     
+printf("Cash value is %d", Cash.dollars);
 ```
 
 ---
@@ -267,7 +268,7 @@ class Book {
   std::string JSON() {
     return "{\"isbn\":\"" + this->isbn + "\", \"title\":\"" + this->title + "\"}";
   }
-};   
+};
 ```
 
 ---
@@ -280,8 +281,7 @@ layout: statement
 
 # Methods
 ## Task
-Task
-* Write a program in C++, which will demonstrate communication between different objects
+* Write a program which will demonstrate communication between different objects
 
 ---
 layout: statement

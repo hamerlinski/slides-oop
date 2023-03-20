@@ -51,7 +51,7 @@ Immutability, interfaces, project structure, and task
 **Angela**: Dwight and I have a contractual agreement to procreate five times, plain and simple. And should he develop feelings for me, well, that would be permissible under item 7C, clause 2, so I would not object._
 
 ---
-layout: section
+layout: statement
 ---
 
 # Immutability
@@ -144,7 +144,7 @@ class HTTPStatus: public Status {
 * They prevent NULL references.
 
 ---
-layout: section
+layout: statement
 ---
 
 # Interfaces
@@ -315,7 +315,7 @@ class Employee {
   Money *salary;
 };
 ```
-Similarly to the previous steps, we will implement class in header file. 
+Similarly to the previous steps, we will implement class in header file.
 ```cpp
 #include "../include/Employee.h"
 Employee::Employee(const std::string &name, Money *salary) : name(name), salary(salary) {}
@@ -373,11 +373,18 @@ layout: section
 > **Declarations in headers in /include, implementation in cpp files in /src**
 
 Example template can be found here: [cpp-project-template-by-google](https://github.com/hamerlinski/cpp-project-template-by-google)
+
+---
+layout: statement
+---
+
+# Task
+
 ---
 
 # Object Oriented Programming
 ## Task
-Write an **interface** and a **class**, which will be immutable and will implement that **interface**.
+Write an **interface** and a **class** which will be immutable and will implement that **interface**.
 
 ---
 layout: statement
