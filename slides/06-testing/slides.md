@@ -1,101 +1,52 @@
 ---
+# Copyright © 2023 Jakub Piotr Hamerliński
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the 'Software'), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 theme: apple-basic
-colorSchema: light
+colorSchema: 'light'
 lineNumbers: true
-title: Object Oriented Programming
+title: 'Object Oriented Programming'
 fonts:
-  provider: none
-  sans: Canela Text
-  local: Canela Text
+  provider: 'none'
+  sans: 'Canela Text'
+  local: 'Canela Text'
 layout: fact
 ---
 
 # Poznan University of Technology
 ## Object Oriented Programming
+## Testing
 Jakub Piotr Hamerliński, M.Eng.
 
-
+---
+layout: image-right
+image: 'creed.png'
 ---
 
 # Object Oriented Programming
 ## Agenda
-* Exception type
-* Project structure
 * Introduction to unit testing
 * Task
+<br><br>
+> "Every week, I'm supposed to take four hours and do a quality spot-check at the paper mill. And of course the one year I blow it off, this happens."
 
----
-layout: section
----
-
-# Exception type
-
----
-
-# Object Oriented Programming
-## Exception
-Even though we have many different exception, I recommend to use only one type, the most generic, **Exception**, **std::exception**
-```java
-public void pay(double repayment) throws Exception;
-```
-```java
-CreditDebt debt = new CreditDebt(period, firstPay, amount);
-try {
-  debt.pay(1000.0);
-} catch (Exception ex) {
-  System.out.print("Unable to pay debt: " + ex.getMessage());
-}
-```
-
----
-layout: section
----
-
-# Project structure
-
----
-
-# Object Oriented Programming
-## Project structure
-Project structure Java
-
-```shell
-└── src
-    ├── Application.java
-    └── pl
-        └── poznan
-            └── put
-                ├── content
-                │   ├── Character.java
-                │   ├── Content.java
-                │   ├── FileContent.java
-                │   └── Symbol.java
-                └── log
-                    ├── Logarithm.java
-                    └── Number.java
-```
-
----
-
-# Object Oriented Programming
-## Project structure
-Project structure C++
-
-```shell
-├── include
-│   ├── content
-│   │   ├── Content.h
-│   │   └── FileContent.h
-│   └── log
-│       ├── Logarithm.h
-│       └── Number.h
-└── src
-    ├── Application.cpp
-    ├── content
-    │   └── FileContent.cpp
-    └── log
-        └── Logarithm.cpp
-```
+Creed Bratton
 
 ---
 layout: section
