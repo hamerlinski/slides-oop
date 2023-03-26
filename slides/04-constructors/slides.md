@@ -42,8 +42,12 @@ image: 'darryl.jpg'
 # Constructors
 ## Agenda
 * Introduction
+* Types
+* Delegation
+* Code inside constructors
+* Destructor
 * Task
-<br><br><br>
+<br>
 > _**Bookstore employee**: Well, if you read a lot, you should check out our e-readers. They're really neat.
 <br>**Darryl**: Whoa, I work at a paper company, those things terrify me. They could put us out of business, you know? I heard those machines hold, like, ten books at once.
 <br>**Bookstore employee**: Actually, it's ten thousand.
@@ -53,13 +57,13 @@ image: 'darryl.jpg'
 layout: statement
 ---
 
-# Constructors 
+# Constructors
 
 ---
 
 # Constructors
 ## Introduction
-It’s an entry point to a new object.<br>
+It's an entry point to a new object.<br>
 It accepts some arguments, does something with them, and prepare the object to perform their duties.<br>
 Properly constructed class should have many constructors and only a few methods.<br>
 > **Number of constructors > Number of methods**
@@ -79,7 +83,7 @@ Money intCash(144);
 
 # Constructors
 ## Types
-Constructor’s main task is to initialize encapsulated properties, using the provided arguments.<br>
+Constructor's main task is to initialize encapsulated properties, using the provided arguments.<br>
 One primary constructor with initialization.<br>
 Many secondaries constructors, which call the primary one.<br>
 This approach reduces complexity and helps to avoid duplication.<br>
@@ -204,7 +208,7 @@ layout: statement
 # Constructors
 ## Task
 Task
-* Write a program in C++, which will shows delegation of the constructors and the flexibility it provides. 
+* Write a program which will showcase delegation of the constructors and the flexibility it provides.
 
 ---
 
