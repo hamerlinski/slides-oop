@@ -315,7 +315,7 @@ class Employee {
   Money *salary;
 };
 ```
-Similarly to the previous steps, we will implement class in header file.
+Similarly to the previous steps, we will implement class in .cpp file.
 ```cpp
 #include "../include/Employee.h"
 Employee::Employee(const std::string &name, Money *salary) : name(name), salary(salary) {}
