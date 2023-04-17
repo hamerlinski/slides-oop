@@ -1,16 +1,6 @@
 #include <iostream>
 #include <map>
 
-class Currency {
- public:
-  Currency() = default;
-  virtual ~Currency() = default;
-
-  virtual double ConvertedToDollars(const Cantor& cantor) const = 0;
-  virtual std::string Abbreviation() const = 0;
-  virtual double Amount() const = 0;
-};
-
 class Cantor {
  public:
   Cantor() = default;
@@ -48,6 +38,16 @@ class FakeUsdCantor : public Cantor {
 
  private:
   std::map<std::string, double> rates_;
+};
+
+class Currency {
+ public:
+  Currency() = default;
+  virtual ~Currency() = default;
+
+  virtual double ConvertedToDollars(const Cantor& cantor) const = 0;
+  virtual std::string Abbreviation() const = 0;
+  virtual double Amount() const = 0;
 };
 
 int main() {
