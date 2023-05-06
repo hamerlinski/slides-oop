@@ -1,5 +1,5 @@
 {
-  "name": "e06",
+  "name": "11-raii",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -8,9 +8,7 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.36.11",
-    "@slidev/theme-apple-basic": "^0.20.0",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-apple-basic": "^0.20.0"
   },
   "devDependencies": {
     "playwright-chromium": "^1.28.1"
