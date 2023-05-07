@@ -19,19 +19,24 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 theme: apple-basic
-colorSchema: light
-lineNumbers: false
-title: C++ basics
+colorSchema: 'light'
+lineNumbers: true
+title: 'Object Oriented Programming'
 fonts:
-  provider: none
-  sans: Canela Text
-  local: Canela Text
+  provider: 'none'
+  sans: 'Canela Text'
+  local: 'Canela Text'
 layout: fact
 ---
 
 ## Poznan University of Technology
-## C++ basics
-Jakub Piotr Hamerliński
+## Object Oriented Programming<br>
+## C++ basics<br>
+## Jakub Piotr Hamerliński, M.Eng.<br><br>
+<div class=hyperlink>
+<a href="https://www.linkedin.com/in/hamerlinski" target="_blank">https://www.linkedin.com/in/hamerlinski</a><br>
+<a href="https://github.com/hamerlinski" target="_blank">https://github.com/hamerlinski</a>
+</div>
 
 ---
 layout: image-right

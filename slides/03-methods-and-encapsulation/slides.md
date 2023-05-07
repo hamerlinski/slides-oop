@@ -29,10 +29,14 @@ fonts:
 layout: fact
 ---
 
-# Poznan University of Technology
-## Object Oriented Programming
-## Methods and encapsulation
-Jakub Piotr Hamerliński
+## Poznan University of Technology
+## Object Oriented Programming<br>
+## Methods and encapsulation<br>
+## Jakub Piotr Hamerliński, M.Eng.<br><br>
+<div class=hyperlink>
+<a href="https://www.linkedin.com/in/hamerlinski" target="_blank">https://www.linkedin.com/in/hamerlinski</a><br>
+<a href="https://github.com/hamerlinski" target="_blank">https://github.com/hamerlinski</a>
+</div>
 
 ---
 layout: image-right

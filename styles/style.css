@@ -49,3 +49,10 @@ SOFTWARE.
 img {
   background-position: inherit;
 }
+
+.hyperlink a {
+  color: slategrey;
+  border-bottom-width: 0;
+  font-size: 0.9rem;
+  line-height: 2;
+}

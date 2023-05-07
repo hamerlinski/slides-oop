@@ -21,7 +21,7 @@
 theme: apple-basic
 colorSchema: light
 lineNumbers: false
-title: Subject introduction
+title: Object Oriented Programming
 fonts:
   provider: none
   sans: Canela Text
@@ -30,8 +30,13 @@ layout: fact
 ---
 
 ## Poznan University of Technology
-## Object Oriented Programming
-Jakub Piotr Hamerliński
+## Object Oriented Programming<br>
+## Subject introduction<br>
+## Jakub Piotr Hamerliński, M.Eng.<br><br>
+<div class=hyperlink>
+<a href="https://www.linkedin.com/in/hamerlinski" target="_blank">https://www.linkedin.com/in/hamerlinski</a><br>
+<a href="https://github.com/hamerlinski" target="_blank">https://github.com/hamerlinski</a>
+</div>
 
 ---
 layout: image-right

@@ -30,8 +30,13 @@ layout: fact
 ---
 
 ## Poznan University of Technology
-## Version Control Systems
-Jakub Piotr Hamerliński
+## Object Oriented Programming<br>
+## Version Control Systems<br>
+## Jakub Piotr Hamerliński, M.Eng.<br><br>
+<div class=hyperlink>
+<a href="https://www.linkedin.com/in/hamerlinski" target="_blank">https://www.linkedin.com/in/hamerlinski</a><br>
+<a href="https://github.com/hamerlinski" target="_blank">https://github.com/hamerlinski</a>
+</div>
 
 ---
 layout: image-right
@@ -129,7 +134,7 @@ It also provides additional functionality such as the ability to search for repo
 # Version Control Systems
 ## GitHub CLI installation
 To install GitHub CLI, you will need to have a recent version of Git and Node.js installed on your system. Once these dependencies are installed, you can follow these steps:
-1. Open your terminal or command prompt and enter the following command  `npm install -g gh`
+1. Open your terminal or command prompt and enter the following command  `npm install -g gh` or download installation file.
 This will install the GitHub CLI tool globally on your system.
 
 ---
@@ -148,22 +153,59 @@ This will install the GitHub CLI tool globally on your system.
 
 # Version Control Systems
 ## GitHub CLI installation
-1. Finally, you can test the GitHub CLI by running a simple command such as `gh repo list`. This should list all of the repositories in your GitHub account.
+4. Finally, you can test the GitHub CLI by running a simple command such as `gh repo list`. This should list all of the repositories in your GitHub account.
 
 ---
 
 # Version Control Systems
 ## Example GitHub CLI task
-1. Check the status of the repository using the GitHub CLI. To do this, type `gh repo status`
-2. Check the history of the repository using the GitHub CLI. To do this, type `gh repo history`
-3. Check the list of collaborators on the repository using the GitHub CLI. To do this, type<br>`gh repo list-collaborators`
+1. Install GitHub CLI (if not installed):<br>
+For macOS: `brew install gh`<br>
+For Windows: `scoop install gh`<br>
+For Linux: 
+```shell
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh
+```
+
+2. Authenticate with your GitHub account: `gh auth login`<br>
+3. Clone a repository:
+```shell
+gh repo clone <repository-owner>/<repository-name>
+cd <repository-name>
+```
 
 ---
 
 # Version Control Systems
 ## Example GitHub CLI task
-4. Add a collaborator to the repository using the GitHub CLI. To do this, type <br>`gh repo add-collaborator <username>`. Replace `<username>` with the desired username of the collaborator.
-5. Remove a collaborator from the repository using the GitHub CLI. To do this, type <br>`gh repo remove-collaborator <username>`. Replace `<username>` with the username of the collaborator you want to remove.
+4. Create a new branch: `git checkout -b <branch-name>` <br>
+5. Make changes to the files in the repository using your favorite text editor or IDE.
+6. Add the changes and commit them:
+```shell
+git add .
+git commit -m "feat: add new feature and didn't break code"
+```
+
+7. Push the branch to the remote repository: `git push --set-upstream origin <branch-name>`
+8. Create a pull request:
+```shell
+gh pr create --title "Your PR title" --body "Description of the changes"
+```
+
+---
+
+# Version Control Systems
+## Example GitHub CLI task
+
+9. Your pull request is now created on GitHub. You can view it by visiting the repository's pull request page on GitHub or by running the following command:
+```shell
+gh pr view --web
+```
+
+Remember to replace `<repository-owner>`, `<repository-name>`, `<branch-name>`, and other placeholders with appropriate values.
 
 ---
 layout: statement
